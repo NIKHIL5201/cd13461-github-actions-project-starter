@@ -126,4 +126,4 @@ jobs:
             --repo "${{ github.repository }}" \
             --title "$(date +'%Y-%m-%d') - Deployment: failed" \
             --body "URL: ${{ steps.deployment.outputs.page_url }}"
-            
+            `
